@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color:#303030;
+    width: 100%;
+    height: 475px;
+    
+}
+#text_header{
+    color: aliceblue;
+    padding: 225px 0px 5px 60px;
+}
+#tradicao{
+    font-size: 50px;
+}
+
+#numeros{
+    width: 100%;
+    height: 230px;
+    background-color:#F9F9F9;
+    ;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 90px;
+}
+
+.text_li{
+    font-size: 20px;
+}
+
+
+.number{
+    font-size: 40px;
+}
+
+#apresentacao{
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+}
+#text_apresentacao{
+    padding-top: 300px ;
+}
+#image{
+    z-index: 1;
+    border: none;
+    margin-top: 60px;
+   
+}
+
+#history{
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+#realization{
+    font-size: 20px;
+}
+
+#formulario{
+    background-color: #303030;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 640px;
+    padding-top: 85px;
+    margin-top: 80px;
+    
+}
+
+#text_form{
+    font-size: 35px;
+    color: #FFFFFF;
+}
+#form{
+    display: grid;
+    
+}
+input{
+    height: 75px;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-bottom: 35px;
+    background: #FFFFFF;
+    font-size: 25px;
+
+}
+
+#faleConosco{
+    background: #C07212;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    width: 286px;
+    height: 74px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 55px;
+    cursor: pointer;
+    margin-left: 28%;
+
+      
+}
+
+#faleConosco:hover{
+    
+    box-shadow: 10px 10px 0px 0px #c072128e; ;
+    color: #303030;
+    
+}
+
+#modal {
+    width: 100%;
+    height: 640px;
+    padding-top: 85px;
+    margin-top: 80px;
+    background-color:rgba(0, 0, 0, 0.952);
+    
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 0px 0px #303030be;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    display: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+  }
+  #fechar{
+    background: #ce8935fa;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    width: 250px;
+    height: 54px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 55px;
+    cursor: pointer;
+    margin-left:15px;
+    
+  }
+
